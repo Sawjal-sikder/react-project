@@ -9,6 +9,12 @@ const Home = () => {
       {loading && <p>Loading..</p> }
       {error && <p>{error}</p> }
       {data && data.map((item)=> <p key={item.id}> {item.title} </p> ) }
+
+
+
+
+
+
     </div>
   )
 }

@@ -1,10 +1,12 @@
 import React from 'react'
-import Home from './Componant/Home'
+
+
+import RouterApp from './Componant/Route/Home'
 
 const App = () => {
   return (
     <div>
-        <Home />
+        <RouterApp />
     </div>
   )
 }
