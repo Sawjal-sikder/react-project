@@ -1,0 +1,23 @@
+nav{
+   background-color: black; 
+   display: flex;
+   justify-content: left;
+}
+.nav-link{
+
+    
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+.nav-link:hover{
+    background-color: #ddd;
+    color: black;
+}
+nav .active{
+    background-color: #04AA6D;
+    color: white;
+    
+}
